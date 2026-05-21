@@ -1,0 +1,15 @@
+{
+  "name": "weather-explorer",
+  "version": "1.0.0",
+  "description": "Compare weather across countries using OpenWeatherMap + REST Countries APIs",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.7.0",
+    "dotenv": "^16.3.1"
+  }
+}
